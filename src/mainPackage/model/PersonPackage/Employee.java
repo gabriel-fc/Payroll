@@ -1,8 +1,8 @@
-package com.company.model.PersonPackage;
+package  mainPackage.model.PersonPackage;
 
-import com.company.controller.*;
-import com.company.view.EmployeeMessages;
-import com.company.view.GeneralDefaultMessages;
+import  mainPackage.controller.*;
+import  mainPackage.view.EmployeeMessages;
+import  mainPackage.view.GeneralDefaultMessages;
 
 /**
  * Created by alunoic on 24/08/18.

@@ -1,4 +1,4 @@
-package com.company.controller;
+package mainPackage.controller;
 
 /**
  * Created by alunoic on 24/08/18.

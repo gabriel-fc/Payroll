@@ -1,4 +1,4 @@
-package com.company.model.PersonPackage;
+package  mainPackage.model.PersonPackage;
 
 /**
  * Created by alunoic on 24/08/18.

@@ -1,6 +1,6 @@
-package com.company.controller;
+package mainPackage.controller;
 
-import com.company.model.TimeCard;
+import mainPackage.model.TimeCard;
 
 import java.util.ArrayList;
 

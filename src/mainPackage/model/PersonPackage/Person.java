@@ -1,9 +1,9 @@
-package com.company.model.PersonPackage;
+package  mainPackage.model.PersonPackage;
 
-import com.company.controller.Input;
-import com.company.model.Address;
-import com.company.view.PersonMessages;
-import com.company.view.GeneralDefaultMessages;
+import  mainPackage.controller.Input;
+import  mainPackage.model.Address;
+import  mainPackage.view.PersonMessages;
+import  mainPackage.view.GeneralDefaultMessages;
 
 public abstract class Person {
     private String name;

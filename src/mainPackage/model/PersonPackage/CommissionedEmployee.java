@@ -1,8 +1,8 @@
-package com.company.model.PersonPackage;
+package mainPackage.model.PersonPackage;
 
-import com.company.controller.Input;
-import com.company.view.CommissionedEmployeeMessages;
-import com.company.view.GeneralDefaultMessages;
+import  mainPackage.controller.Input;
+import  mainPackage.view.CommissionedEmployeeMessages;
+import  mainPackage.view.GeneralDefaultMessages;
 
 public class CommissionedEmployee extends SalariedEmployee {
     private float commission;

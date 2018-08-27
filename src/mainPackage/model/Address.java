@@ -1,8 +1,8 @@
-package com.company.model;
+package  mainPackage.model;
 
-import com.company.controller.Input;
-import com.company.view.AddressMessages;
-import com.company.view.GeneralDefaultMessages;
+import  mainPackage.controller.Input;
+import  mainPackage.view.AddressMessages;
+import  mainPackage.view.GeneralDefaultMessages;
 
 /**
  * Created by alunoic on 24/08/18.

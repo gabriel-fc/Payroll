@@ -1,4 +1,5 @@
-package com.company.view;
+package mainPackage.view;
+
 
 /**
  * Created by alunoic on 24/08/18.

@@ -1,4 +1,4 @@
-package com.company.view;
+package mainPackage.view;
 
 
 /**
