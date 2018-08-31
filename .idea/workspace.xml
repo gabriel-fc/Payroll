@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0d5ac841-7a1f-4317-864f-4fb7cfb628d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+=======
+    <list default="true" id="3c6dc356-2c3b-4a5d-aeb3-7ad4deef3ad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mainPackage/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainPackage/controller/PaymentScheduleManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainPackage/controller/input/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainPackage/model/employeePackage/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/TimeCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/controller/EmployeeDataManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/controller/IdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/controller/IdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/controller/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/controller/TimeCardDataManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/CommissionedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/employeePackage/CommissionedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/HourlyEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/SalariedEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/TimeCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/view/AddressMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/view/EmployeeMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/view/EmployeeMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/view/GeneralDefaultMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/view/GeneralDefaultMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/view/PersonMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/view/PersonMessages.java" afterDir="false" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,22 +37,123 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="246078243">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.2" value="1" />
+=======
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/payRoll$Main.ic" NAME="Main Coverage Results" MODIFIED="1535672311836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="269" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2062605237">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="java" value="8" />
+=======
+          <entry key="java" value="4" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="JAVA" value="8" />
+=======
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="693055950">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="32" />
+          <entry key="java" value="15427" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="15427" />
+          <entry key="PLAIN_TEXT" value="32" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-106670472">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="517" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="517" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
         </counts>
       </usages-collector>
     </session>
@@ -34,19 +161,145 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/company/model/ComissionedEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/view/MenuMessages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+              <folding>
+                <element signature="method#mainMenuMsg#0;class#MenuMessages#0" />
+                <element signature="method#employeesTimeCardMsg#0;class#MenuMessages#0" />
+                <element signature="method#changeDetailsMenu#0;class#MenuMessages#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/PaymentScheduleManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#PaymentScheduleManagement#0;class#PaymentScheduleManagement#0" />
+                <element signature="method#createEmployee#0;class#PaymentScheduleManagement#0" />
+                <element signature="method#getEmployee#0;class#PaymentScheduleManagement#0" />
+                <element signature="method#getSchedule#0;class#PaymentScheduleManagement#0" />
+                <element signature="method#changeEmployeeSchedule#0;class#PaymentScheduleManagement#0" />
+                <element signature="method#removeEmployee#0;class#PaymentScheduleManagement#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/employeePackage/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#Employee#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/PaymentInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/view/PersonMessages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/ThrowSalesResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/ChangeDetailsMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#option1#0;class#ChangeDetailsMenu#0" />
+                <element signature="method#option2#0;class#ChangeDetailsMenu#0" />
+                <element signature="method#option3#0;class#ChangeDetailsMenu#0" />
+              </folding>
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="8" selection-start-column="8" selection-end-column="19" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/EmployeeAddition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="20" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/view/GeneralDefaultMessages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+              <folding>
+                <element signature="method#wrongFormatInput#0;class#GeneralDefaultMessages#0" />
+              </folding>
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
             </state>
           </provider>
         </entry>
@@ -56,6 +309,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -63,17 +317,100 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setem</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/HourlyEmployee.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/CommissionedEmployee.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/Person.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/Syndicate.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PaymentType.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PaymentInfos.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PersonPackage/Employee.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/teste.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/Teste.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PaymentInfo.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/SyndicateInfo.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/TimeCard.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/personPackage/Employee.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/EmployeeDataManagement.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/DateManagement.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/view/PaymentScheduleMessages.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/view/PersonMessages.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/Main.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/Input.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/IdGenerator.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/view/EmployeeMessages.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/view/menuMessages.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/PaymentSchedule.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/mainMenu.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/EmployeeRemoval.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/Main.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/TimeCard.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/ThrowTimeCard.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/ThrowAdditionalFee.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/SyndicateInfo.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/employeePackage/Employee.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/employeePackage/CommissionedEmployee.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/view/GeneralDefaultMessages.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/ThrowSalesResult.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/EmployeeAddition.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/PaymentScheduleManagement.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/PaymentInfo.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/view/MenuMessages.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/menu/ChangeDetailsMenu.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,15 +427,64 @@
               <item name="payRoll" type="b2602c69:ProjectViewProjectNode" />
               <item name="payRoll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="company" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
             </path>
             <path>
               <item name="payRoll" type="b2602c69:ProjectViewProjectNode" />
               <item name="payRoll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payRoll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payRoll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payRoll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payRoll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payRoll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payRoll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="employeePackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payRoll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payRoll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="employeePackage" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeAdditionalInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payRoll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payRoll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
           </expand>
           <select />
         </subPane>
@@ -111,7 +497,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535376681888" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535681158952" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,7 +518,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="mainPackage.Main" />
+=======
+      <option name="MAIN_CLASS_NAME" value="mainPackage.controller.Main" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
       <module name="payRoll" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -136,22 +531,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="0d5ac841-7a1f-4317-864f-4fb7cfb628d4" name="Default Changelist" comment="" />
       <created>1535375551969</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535375551969</updated>
       <workItem from="1535375555354" duration="1126000" />
+=======
+      <changelist id="3c6dc356-2c3b-4a5d-aeb3-7ad4deef3ad4" name="Default Changelist" comment="" />
+      <created>1535378300166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535378300166</updated>
+      <workItem from="1535378304106" duration="87000" />
+      <workItem from="1535378637093" duration="129000" />
+      <workItem from="1535378806832" duration="10353000" />
+      <workItem from="1535476526877" duration="18068000" />
+      <workItem from="1535537566722" duration="28429000" />
+      <workItem from="1535592015476" duration="5684000" />
+      <workItem from="1535659652536" duration="19368000" />
+      <workItem from="1535716137156" duration="2950000" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1126000" />
   </component>
   <component name="ToolWindowManager">
@@ -171,10 +591,37 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
+=======
+    <option name="totallyTimeSpent" value="85068000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.18759455" />
+      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.25746268" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16065574" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -184,6 +631,23 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49838188" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49838188" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49838188" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50161815" side_tool="true" weight="0.32995737" />
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +656,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../view/CommissionedEmployeeMessages.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -242,13 +707,285 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mainPackage/view/MenuMessages.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mainPackage/view/MenuMessages.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/PersonPackage/SalariedEmployee.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/HourlyEmployeeMessages.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/PersonPackage/HourlyEmployee.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/Teste.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/TimeCardDataManagement.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/EmployeeDataManagementMessages.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/EmployeeDataManagement.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/DateManagement.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/SyndicateMessages.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/IdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/input/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/EmployeeMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/CommissionedEmployeeMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/PaymentScheduleMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/TimeCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/ThrowTimeCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#throwTimeCard#0;class#ThrowTimeCard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/EmployeeRemoval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/ThrowAdditionalFee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/SyndicateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/employeePackage/CommissionedEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+          <folding>
+            <element signature="method#CommissionedEmployee#0;class#CommissionedEmployee#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="method#Address#0;class#Address#0" />
+            <element signature="method#toString#0;class#Address#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/PaymentSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PaymentSchedule#0;class#PaymentSchedule#0" />
+            <element signature="method#PaymentSchedule#1;class#PaymentSchedule#0" />
+            <element signature="method#getEmployee#0;class#PaymentSchedule#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/PersonMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/ThrowSalesResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/EmployeeAddition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/GeneralDefaultMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="method#wrongFormatInput#0;class#GeneralDefaultMessages#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/employeePackage/employeeAdditionalInfo/PaymentInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/employeePackage/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Employee#0" />
+          </folding>
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/PaymentScheduleManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret column="8" selection-start-column="8" selection-end-column="19" />
+=======
+        <state relative-caret-position="72">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PaymentScheduleManagement#0;class#PaymentScheduleManagement#0" />
+            <element signature="method#createEmployee#0;class#PaymentScheduleManagement#0" />
+            <element signature="method#getEmployee#0;class#PaymentScheduleManagement#0" />
+            <element signature="method#getSchedule#0;class#PaymentScheduleManagement#0" />
+            <element signature="method#changeEmployeeSchedule#0;class#PaymentScheduleManagement#0" />
+            <element signature="method#removeEmployee#0;class#PaymentScheduleManagement#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/view/MenuMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="method#mainMenuMsg#0;class#MenuMessages#0" />
+            <element signature="method#employeesTimeCardMsg#0;class#MenuMessages#0" />
+            <element signature="method#changeDetailsMenu#0;class#MenuMessages#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/menu/ChangeDetailsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#option1#0;class#ChangeDetailsMenu#0" />
+            <element signature="method#option2#0;class#ChangeDetailsMenu#0" />
+            <element signature="method#option3#0;class#ChangeDetailsMenu#0" />
+          </folding>
+>>>>>>> 0ea0862f98967533df4733ae5e64d2acecf8d5ff
         </state>
       </provider>
     </entry>
