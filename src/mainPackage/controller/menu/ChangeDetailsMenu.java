@@ -1,8 +1,10 @@
 package mainPackage.controller.menu;
 
+import mainPackage.controller.PaymentScheduleManagement;
 import mainPackage.controller.input.Input;
 import mainPackage.model.Address;
 import mainPackage.model.PaymentSchedule;
+import mainPackage.model.employeePackage.CommissionedEmployee;
 import mainPackage.model.employeePackage.Employee;
 import mainPackage.view.GeneralDefaultMessages;
 import mainPackage.view.MenuMessages;
@@ -30,23 +32,25 @@ public class ChangeDetailsMenu {
         GeneralDefaultMessages.showMessage(display2.successfulOperation());
     }
 
-    private void option3(Employee employee, PaymentSchedule employeeDataStructure){
+    private void option3(Employee employee, PaymentScheduleManagement employeeDataStructure){
         MenuMessages display = new MenuMessages();
 
-        GeneralDefaultMessages.showMessage(display.setEmployeeInfo());
-
         GeneralDefaultMessages.showMessage(display.setEmployeeTypeMsg());
-        int employeeType = newInput.numberedInput(3);
+        int newEmployeeType = newInput.numberedInput(3);
 
-        if (employeeType != 3){
-            employee.setEmployeeType(employeeType);
+        if (newEmployeeType != 3){
+            employee.setEmployeeType(newEmployeeType);
 
+//Because commissioned employees are set in a different class, we need to manage them differently
         }else {
-            employeeDataStructure.
+            CommissionedEmployee newTypeEmployee = new CommissionedEmployee(newEmployeeType, employee);
+            employeeDataStructure.removeEmployee(employee.getId());
+            employeeDataStructure.addEmployee(newTypeEmployee);
         }
+        GeneralDefaultMessages.showMessage(display2.successfulOperation());
     }
 
-    public void changeDetailsMenu(PaymentSchedule employeeDataStructure){
+    public void changeDetailsMenu(PaymentScheduleManagement employeeDataStructure){
         MenuMessages display = new MenuMessages();
         int userOption;
         Employee employee;
@@ -76,6 +80,7 @@ public class ChangeDetailsMenu {
             case 2:
                 option2(employee); break;
             case 3:
+                option3(employee, employeeDataStructure); break;
 
         }
 

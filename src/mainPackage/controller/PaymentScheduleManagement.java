@@ -68,36 +68,29 @@ public class PaymentScheduleManagement {
     }
 
 
-    public void changeEmployeeSchedule(String id){
+    public void changeEmployeeSchedule(Employee employee, int newScheduleIndex){
         PaymentScheduleMessages display = new PaymentScheduleMessages();
         GeneralDefaultMessages display2 = new GeneralDefaultMessages();
         Input newInput = new Input();
-        int newScheduleIndex;
         PaymentSchedule newSchedule, oldSchedule;
 
-        Employee employee = this.getEmployee(id);
-        if (employee == null){
-            GeneralDefaultMessages.showMessage(display2.employeeNotFound());
-            GeneralDefaultMessages.showMessage(display2.canceledOperation());
-            return;
-        }
-
-        GeneralDefaultMessages.showMessage(display.setPaymentScheduleMsg(PSArrayList));
-        newScheduleIndex = newInput.numberedInput(this.PSArrayList.size()) - 1;
 
         oldSchedule = this.getSchedule(employee.getPaymentinfo().getScheduleId());
         newSchedule = PSArrayList.get(newScheduleIndex);
 
-        if(oldSchedule.removeEmployee(employee.getId()) == null){
+        if(oldSchedule.removeEmployee(employee.getId()) == null) {
             GeneralDefaultMessages.showMessage(display2.errorMessage());
             return;
         }
+
+        employee.getPaymentinfo().setScheduleId(newSchedule.getScheduleId());
         newSchedule.addEmployee(employee);
 
         GeneralDefaultMessages.showMessage(display2.successfulOperation());
 
 
     }
+
 
     public Employee removeEmployee(String id){
         PaymentSchedule currentPaymentSchedule;

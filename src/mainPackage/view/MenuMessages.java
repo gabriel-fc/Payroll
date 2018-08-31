@@ -96,10 +96,6 @@ public class MenuMessages {
                 "8. Sair\n";
     }
 
-    public String getEmployeeIdMsg{
-        return ""
-    }
-
 
 
 }

@@ -41,6 +41,9 @@ public class MainMenu {
             ThrowAdditionalFee throwAdditionalFee = new ThrowAdditionalFee();
             throwAdditionalFee.throwAdditionalFee(employeeDataStructure);
 
+        }else if (userOption == 6){
+            ChangeDetailsMenu changeDetailsMenu = new ChangeDetailsMenu();
+            changeDetailsMenu.changeDetailsMenu(employeeDataStructure);
         }
 
         mainMenu(employeeDataStructure);
