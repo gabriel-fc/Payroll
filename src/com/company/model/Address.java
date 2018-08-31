@@ -71,4 +71,12 @@ public class Address {
         GeneralDefaultMessages.showMessage(display.streetMsg);
         this.street = street;
     }
+
+    @Override
+    public String toString() {
+        return /*number +
+        complement +
+        street +
+        district*/;
+    }
 }

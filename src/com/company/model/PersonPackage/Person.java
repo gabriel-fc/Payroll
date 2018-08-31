@@ -1,25 +1,25 @@
-package com.company.model;
+package com.company.model.PersonPackage;
 
 import com.company.controller.Input;
-import com.company.view.EmployeeMessages;
+import com.company.model.Address;
+import com.company.view.PersonMessages;
 import com.company.view.GeneralDefaultMessages;
 
-/**
- * Created by alunoic on 24/08/18.
- */
-public class Employee {
+public abstract class Person {
     private String name;
     private Address address;
 
-    public Employee(){
+    protected Person() {
         Input newInput = new Input();
-        EmployeeMessages display = new EmployeeMessages();
+        PersonMessages display = new PersonMessages();
 
         GeneralDefaultMessages.showMessage(display.nameMsg());
         this.name = newInput.simpleString();
+
         address = new Address();
 
     }
+
 
     public String getName() {
         return name;
@@ -29,6 +29,9 @@ public class Employee {
         return address;
     }
 
+
+
+
     public void setName(String name) {
         this.name = name;
     }
@@ -36,5 +39,10 @@ public class Employee {
     public void setAddress(Address address) {
         this.address = address;
     }
-}
 
+
+    @Override
+    public String toString() {
+        return /*name and address.toString()*/;
+    }
+}
