@@ -1,16 +1,24 @@
-package mainPackage.model.PersonPackage;
+package mainPackage.model.employeePackage;
 
-import  mainPackage.controller.Input;
-import  mainPackage.view.CommissionedEmployeeMessages;
+import mainPackage.controller.PaymentScheduleManagement;
+import mainPackage.controller.input.Input;
+import mainPackage.view.EmployeeMessages;
 import  mainPackage.view.GeneralDefaultMessages;
 
-public class CommissionedEmployee extends SalariedEmployee {
+public class CommissionedEmployee extends Employee{
     private float commission;
     private float sales;
 
-    public CommissionedEmployee(){
-        super();
-        CommissionedEmployeeMessages display = new CommissionedEmployeeMessages();
+    public CommissionedEmployee(int employeeType, Employee employee){
+        super(employeeType, employee);
+
+        this.commission = 0;
+        this.sales = 0;
+    }
+
+    public CommissionedEmployee(int employeeType, PaymentScheduleManagement employeeDataStructure){
+        super(employeeType, employeeDataStructure);
+        EmployeeMessages display = new EmployeeMessages();
         Input newInput = new Input();
 
         GeneralDefaultMessages.showMessage(display.commissionMsg());
@@ -38,8 +46,9 @@ public class CommissionedEmployee extends SalariedEmployee {
         this.sales = sales;
     }
 
-    @Override
+   /* @Override
     public String toString() {
-        return super.toString() + /* sales and commission*/;
-    }
+        return super.toString() +  sales and commission;
+    }*/
+
 }

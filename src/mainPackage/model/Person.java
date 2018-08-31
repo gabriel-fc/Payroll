@@ -1,7 +1,6 @@
-package  mainPackage.model.PersonPackage;
+package mainPackage.model;
 
-import  mainPackage.controller.Input;
-import  mainPackage.model.Address;
+import mainPackage.controller.input.Input;
 import  mainPackage.view.PersonMessages;
 import  mainPackage.view.GeneralDefaultMessages;
 
@@ -14,7 +13,7 @@ public abstract class Person {
         PersonMessages display = new PersonMessages();
 
         GeneralDefaultMessages.showMessage(display.nameMsg());
-        this.name = newInput.simpleString();
+        this.name = newInput.simpleStringInput();
 
         address = new Address();
 
@@ -43,6 +42,9 @@ public abstract class Person {
 
     @Override
     public String toString() {
-        return /*name and address.toString()*/;
+        PersonMessages display = new PersonMessages();
+
+        return display.nameMsg() + "\n  " +
+                this.name + "\n" + this.address.toString();
     }
 }

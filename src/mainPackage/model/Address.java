@@ -1,34 +1,39 @@
 package  mainPackage.model;
 
-import  mainPackage.controller.Input;
-import  mainPackage.view.AddressMessages;
+import mainPackage.controller.input.Input;
 import  mainPackage.view.GeneralDefaultMessages;
+import mainPackage.view.PersonMessages;
 
 /**
  * Created by alunoic on 24/08/18.
  */
 public class Address {
-    private String number;
+    private int number;
     private String street;
     private String district;
     private String complement;
 
     public Address(){
-        AddressMessages display = new AddressMessages();
+        PersonMessages display = new PersonMessages();
         Input newInput = new Input();
 
+        GeneralDefaultMessages.showMessage(display.addressMsg());
+
         GeneralDefaultMessages.showMessage(display.streetMsg());
-        this.street = newInput.simpleString();
+        this.street = newInput.simpleStringInput();
+
         GeneralDefaultMessages.showMessage(display.numberMsg());
-        this.number = newInput.simpleString();
+        this.number = newInput.integerInput();
+
         GeneralDefaultMessages.showMessage(display.districtMsg());
-        this.district = newInput.simpleString();
+        this.district = newInput.simpleStringInput();
+
         GeneralDefaultMessages.showMessage(display.complementMsg());
-        this.complement = newInput.simpleString();
+        this.complement = newInput.simpleStringInput();
 
     }
 
-    public String getNumber() {
+    public int getNumber() {
         return number;
     }
 
@@ -44,39 +49,31 @@ public class Address {
         return street;
     }
 
-    public void setNumber(String number) {
-        AddressMessages display = new AddressMessages();
-
-        GeneralDefaultMessages.showMessage(display.numberMsg());
+    public void setNumber(int number) {
         this.number = number;
     }
 
     public void setComplement(String complement) {
-        AddressMessages display = new AddressMessages();
-
-        GeneralDefaultMessages.showMessage(display.complementMsg());
         this.complement = complement;
     }
 
     public void setDistrict(String district) {
-        AddressMessages display = new AddressMessages();
-
-        GeneralDefaultMessages.showMessage(display.districtMsg);
         this.district = district;
     }
 
     public void setStreet(String street) {
-        AddressMessages display = new AddressMessages();
-
-        GeneralDefaultMessages.showMessage(display.streetMsg);
         this.street = street;
     }
 
     @Override
     public String toString() {
-        return /*number +
-        complement +
-        street +
-        district*/;
+        PersonMessages display = new PersonMessages();
+
+        return display.addressMsg() + "\n  " +
+                display.streetMsg() + this.street + ", " +
+                display.numberMsg() + this.number + ", " +
+                display.districtMsg() + this.district + ", " +
+                display.complementMsg() + this.complement + ".\n";
+
     }
 }
